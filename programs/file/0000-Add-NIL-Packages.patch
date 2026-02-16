@@ -1,0 +1,28 @@
+--- /dev/null
++++ b/magic/Magdir/nil
+@@ -0,0 +1,5 @@
++# --------------------
++#  $File: pak v1 2026/02/15
++#  NIL: PAK package | Robert Nilson (minimal.system@ukr.net)
++# --------------------
++0	string		PAK\\		NIL PAK package
+--- a/magic/Makefile.am
++++ b/magic/Makefile.am
+@@ -215,6 +215,7 @@
+ $(MAGIC_FRAGMENT_DIR)/netware \
+ $(MAGIC_FRAGMENT_DIR)/news \
+ $(MAGIC_FRAGMENT_DIR)/nifty \
++$(MAGIC_FRAGMENT_DIR)/nil \
+ $(MAGIC_FRAGMENT_DIR)/nim-lang \
+ $(MAGIC_FRAGMENT_DIR)/nitpicker \
+ $(MAGIC_FRAGMENT_DIR)/numpy \
+--- a/magic/Makefile.in
++++ b/magic/Makefile.in
+@@ -493,6 +493,7 @@
+ $(MAGIC_FRAGMENT_DIR)/netware \
+ $(MAGIC_FRAGMENT_DIR)/news \
+ $(MAGIC_FRAGMENT_DIR)/nifty \
++$(MAGIC_FRAGMENT_DIR)/nil \
+ $(MAGIC_FRAGMENT_DIR)/nim-lang \
+ $(MAGIC_FRAGMENT_DIR)/nitpicker \
+ $(MAGIC_FRAGMENT_DIR)/numpy \

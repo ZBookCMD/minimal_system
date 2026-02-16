@@ -1,33 +1,37 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZBookCMD/miniSYS/refs/heads/alpha/images/Logo.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZBookCMD/miniSYS/refs/heads/alpha/images/Logo_white.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZBookCMD/minimal_system/refs/heads/alpha/images/Logo.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZBookCMD/minimal_system/refs/heads/alpha/images/Logo_white.png">
   <img alt="Distribution logo which looks like red mathematics inequality" src="https://raw.githubusercontent.com/ZBookCMD/miniSYS/refs/heads/alpha/images/Logo.png">
 </picture>
 
-based on [Linux From Scratch](https://linuxfromscratch.org/) and [FemboyOS](https://github.com/Sugaryyyy/FemboyOS) \
+based on [Linux From Scratch](https://linuxfromscratch.org/) 
 **Thanks a lot [Sugaryyyy](https://github.com/Sugaryyyy)** \
 I know how infrequently I release updates... \
 but I have my own personal life like everyone else
 
-## PAcKet Manager
-Plans to make own manager \
-No, its not fork of Alpine APK \
-The basic structure and concept of a package is ready
+## NIL Packet Manager
+Own package manager \
+The basic structure and concept of a package is ready \
+Development is being carried out in C++ \
+And planned to write own build package system (NBP) \
+It is planned planned to release proprietary binaries for each OS with their own paths.
 
 
 ## Will be soon
-My plans for future Alpha releases:
+Our plans for future Alpha releases:
 - more libraries support
 - drivers for a lot things
 - Xorg & Wayland 
 - own repositories
-- XFCE4 & GNUstep 
+- [MAUI Shell](https://github.com/Nitrux/maui-shell) as base
+- [XFCE4](https://www.xfce.org/) & [GNUStep](https://www.gnustep.org/) as secondary 
 - and more.. more... 
 
 
 ## But wait.. Whats work now?
-Really, not too much. But for now I (alone..) am working on this. \
-For now distro have basic programs as GCC, bash, and even `lsusb`. \
+Really, not too much. But for now we are working on this. \
+For now distro have basic programs as GCC, bash, and even usbutils. \
+Its planned to improve support of programs such as rustc, Chrome,
 You can check the parameters in the list below.
 
 | Parameter            | Boolean | Tested and works                  |
@@ -54,4 +58,4 @@ You can check the parameters in the list below.
 | Virtual Machine boot | Partial | QEMU works and optimized for UTM  |
 | LiveCD               | Unknown | Uhh.. init in initrfs corrupted   |
 | Secure boot          | Unknown | Depends on bootloader, not tried  |
----
+
